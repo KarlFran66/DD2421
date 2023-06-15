@@ -1,0 +1,31 @@
+import monkdata as m
+from dtree import averageGain
+
+print("MONK-1:")
+print('a1', averageGain(m.monk1, m.attributes[0]))
+print('a2', averageGain(m.monk1, m.attributes[1]))
+print('a3', averageGain(m.monk1, m.attributes[2]))
+print('a4', averageGain(m.monk1, m.attributes[3]))
+print('a5', averageGain(m.monk1, m.attributes[4]))
+print('a6', averageGain(m.monk1, m.attributes[5]))
+print('Therefore, choose a5 for MONK-1.')
+print(' ')
+
+print("MONK-2:")
+print('a1', averageGain(m.monk2, m.attributes[0]))
+print('a2', averageGain(m.monk2, m.attributes[1]))
+print('a3', averageGain(m.monk2, m.attributes[2]))
+print('a4', averageGain(m.monk2, m.attributes[3]))
+print('a5', averageGain(m.monk2, m.attributes[4]))
+print('a6', averageGain(m.monk2, m.attributes[5]))
+print('Therefore, choose a5 for MONK-2.')
+print(' ')
+
+print("MONK-3:")
+print('a1', averageGain(m.monk3, m.attributes[0]))
+print('a2', averageGain(m.monk3, m.attributes[1]))
+print('a3', averageGain(m.monk3, m.attributes[2]))
+print('a4', averageGain(m.monk3, m.attributes[3]))
+print('a5', averageGain(m.monk3, m.attributes[4]))
+print('a6', averageGain(m.monk3, m.attributes[5]))
+print('Therefore, choose a2 for MONK-3.')
